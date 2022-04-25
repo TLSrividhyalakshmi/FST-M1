@@ -30,9 +30,9 @@ public class AdditionalInfo_7 {
         WebElement addinfo = driver.findElement(By.xpath("//span[@class='suitepicon suitepicon-action-info']"));
         addinfo.click();
         System.out.println("success");
-       // WebElement phone = driver.findElement(By.xpath("//span[@class='phone'"));
-        //phone.getText();
-       // System.out.println("phone Number:" + phone);
+       WebElement phone = driver.findElement(By.xpath("//span[@class='phone'"));
+        phone.getText();
+       System.out.println("phone Number:" + phone);
         driver.close();
     }
     }
